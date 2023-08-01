@@ -1,0 +1,14 @@
+.message-component {
+    background-color: #8b8b8b;
+    color: #ffffff;    
+    left: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px;
+    position: fixed;
+    text-align: center;
+    text-transform: capitalize;
+    top: 0px;
+    width: 100%;
+    z-index: 300;
+}

@@ -1,0 +1,21 @@
+.loader-component {
+    background-color: #0000002e;
+    color: #434343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 200;
+}
+
+.spinner-borders {
+    width: 5rem;
+    height: 5rem;
+    border-width: 0.35em;
+    border-right-color: white;
+
+}

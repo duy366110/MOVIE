@@ -1,0 +1,42 @@
+.card-component {
+    background-color: transparent;
+}
+
+.card-wrapper {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.card-wrapper a {
+    display: block;
+    height: 100%;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(1);
+    transition: all .2s ease;
+    top: 50%;
+    width: 100%;
+}
+
+.card-wrapper:hover a {
+    transform: translate(-50%, -50%) scale(1.035);
+}
+
+.card-wrapper a img {
+    height: 100%;
+    width: 100%;
+}
+
+.card-trailer {
+    height: 385px;
+    width: 100%;
+}
+
+.card-content {
+    left: 0px;
+    height: 385px;
+    position: absolute;
+    width: 100%;
+}

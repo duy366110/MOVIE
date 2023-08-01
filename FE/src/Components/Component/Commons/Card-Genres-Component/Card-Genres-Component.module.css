@@ -1,0 +1,22 @@
+.card-genres-component {
+    height: 180px;
+    position: relative;
+    width: 320px;
+}
+
+.card-genres-component a {
+    display: block;
+    height: 180px;
+    overflow: hidden;
+    transition: all .3s ease;
+    width: 320px;
+}
+
+.card-genres-component:hover a {
+    transform: scale(1.035);
+}
+
+.card-genres-component a img {
+    height: 310px;
+    width: 100%;
+}

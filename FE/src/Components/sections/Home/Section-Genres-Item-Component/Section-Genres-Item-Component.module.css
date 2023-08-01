@@ -1,0 +1,22 @@
+.genres-item-component {
+    margin: 40px 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.genres-item-wrapper {
+    display: flex;
+    gap: 10px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.genres-item-wrapper::-webkit-scrollbar {
+    background-color: #292929;
+    height: 7px;
+}
+
+.genres-item-wrapper::-webkit-scrollbar-thumb {
+    background: #111111;
+}
